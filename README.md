@@ -4,11 +4,13 @@
 
 ---
 
-A browser extension to display ChatGPT response alongside Google (and other search engines) results. It is meant to support the most search engines possible, including a lot of searx instances.
+A browser extension to display ChatGPT response alongside Google (and other search engines) results. It is meant to support the most search engines possible, including a lot of SearX instances (see below)
 
 ## Supported Search Engines
 
-Google, Baidu, Bing, DuckDuckGo, Brave, Yahoo, Naver, Yandex, Kagi, Searx
+Google, Baidu, Bing, DuckDuckGo, Brave, Yahoo, Naver, Yandex, Kagi, SearX
+
+SearX instances : searx.be, 
 
 ## Screenshot
 
