@@ -8,8 +8,8 @@ export class OpenAIProvider implements Provider {
   }
 
   private buildPrompt(prompt: string): string {
-    if (this.model.startsWith('text-chat-davinci')) {
-      return `Respond conversationally.<|im_end|>\n\nUser: ${prompt}<|im_sep|>\nChatGPT:`
+    if (this.model.startsWith('gpt-3.5-turbo')) {
+      return `Respond by giving a definition or a tutorial.<|im_end|>\n\nUser: ${prompt}<|im_sep|>\nChatGPT:`
     }
     return prompt
   }

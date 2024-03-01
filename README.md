@@ -4,13 +4,16 @@
 
 ---
 
-A browser extension to display ChatGPT response alongside Google (and other search engines) results. It is meant to support the most search engines possible, including a lot of SearX instances (see below)
+A browser extension to display ChatGPT response alongside Google (and other search engines) results. It is meant to support search engines and specifically SearX.
 
 ## Supported Search Engines
 
-Google, Baidu, Bing, DuckDuckGo, Brave, Yahoo, Naver, Yandex, Kagi, SearX
+Google, Baidu, Bing, DuckDuckGo, Brave, Naver, Yandex, Kagi, SearX
 
-SearX instances : searx.be, 
+Broken : Yahoo
+
+Every SearX instance in searx.space is supported plus a bunch of other ones.
+If you have a SearX instance that is not on searx.space, open an issue.
 
 ## Screenshot
 
@@ -31,12 +34,6 @@ SearX instances : searx.be,
 
 ## Troubleshooting
 
-### How to make it work in Brave
-
-![Screenshot](screenshots/brave.png?raw=true)
-
-Disable "Prevent sites from fingerprinting me based on my language preferences" in `brave://settings/shields`
-
 ### How to make it work in Opera
 
 ![Screenshot](screenshots/opera.png?raw=true)
@@ -46,10 +43,10 @@ Enable "Allow access to search page results" in the extension management page
 ## Build from source
 
 1. Clone the repo
-2. Install dependencies with `npm`
+2. Install dependencies with `npm install`
 3. `npm run build`
 4. Load `build/chromium/` or `build/firefox/` directory to your browser
 
 ## Credits
-This extension is based on ![chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) by wong2
+This extension is based on [chatgpt-google-extension](https://github.com/wong2/chatgpt-google-extension) by wong2
 
