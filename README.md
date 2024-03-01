@@ -34,6 +34,12 @@ If you have a SearX instance that is not on searx.space, open an issue.
 
 ## Troubleshooting
 
+### How to make it work in Brave
+
+![Screenshot](screenshots/brave.png?raw=true)
+
+Disable "Prevent sites from fingerprinting me based on my language preferences" in `brave://settings/shields`
+
 ### How to make it work in Opera
 
 ![Screenshot](screenshots/opera.png?raw=true)

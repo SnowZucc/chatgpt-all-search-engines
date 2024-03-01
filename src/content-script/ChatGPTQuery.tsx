@@ -95,16 +95,7 @@ function ChatGPTQuery(props: Props) {
           {answer.text}
         </ReactMarkdown>
         {done && showTip && (
-          <p className="italic mt-2">
-            Enjoy this extension? Give us a 5-star rating at{' '}
-            <a
-              href="https://chatgpt4google.com/chrome?utm_source=rating_tip"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Chrome Web Store
-            </a>
-          </p>
+          <p className="italic mt-2">Enjoy this extension? Give us a 5-star rating !</p>
         )}
       </div>
     )
@@ -123,7 +114,7 @@ function ChatGPTQuery(props: Props) {
               return (
                 <span className="block mt-2">
                   Still not working? Follow{' '}
-                  <a href="https://github.com/wong2/chat-gpt-google-extension#troubleshooting">
+                  <a href="https://github.com/SnowZucc/chatgpt-all-search-engines#troubleshooting">
                     Brave Troubleshooting
                   </a>
                 </span>
